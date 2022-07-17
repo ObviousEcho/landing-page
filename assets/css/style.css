@@ -1,5 +1,6 @@
 body {
     font-family: Verdana;
+    margin: 0px;
 }
 
 .header {
@@ -7,13 +8,14 @@ body {
     background-color: aqua;
     position: fixed;
     top: 0;
-    height: 4em;
+    height: 5em;
     width: 100%;
 }
 
 h1 {
-    position: relative;
-    bottom: .2em;
+    float: left;
+    text-align: center;
+    padding-left: 60px;
 }
 
 .nav {
@@ -21,15 +23,20 @@ h1 {
 }
 
 ul {
-    list-style: none;
-    display: inline;
-    position: relative;
-    bottom: 3.5em;
-    padding-right: 1.5em;
+    margin-top: 29px;
 }
 
 li {
     display: inline;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+
+li:last-child {
+    border-right: none;
+    padding-right: 60px;
 }
 
 main {
