@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana;
+}
+
+.header {
+    border-bottom: solid 5px black;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    height: 4em;
+    width: 100%;
+}
+
+img {
+    margin-top: 5em;
+}
+
+main {
+    margin-bottom: 5em;
+}
+
+.margin {
+    margin: 1em;
+}
+
+.button {
+    margin-left: 1em;
+}
+
+.footer {
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
