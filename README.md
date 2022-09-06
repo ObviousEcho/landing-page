@@ -12,4 +12,4 @@ The intent of this page, was to utilize basic HTML to get content on the screen.
 
 ## Check it out
 
-[practice webpage] (https://obviousecho.github.io/landing-page/)
+https://obviousecho.github.io/landing-page/
